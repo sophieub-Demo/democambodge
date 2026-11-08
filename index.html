@@ -1,1 +1,181 @@
 
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mon site pédagogique</title>
+
+  <style>
+    :root {
+      --vert-clair: #DCEDE5;
+      --vert-pastel: #A7CBB8;
+      --vert-sauge: #527C6B;
+      --creme: #F8F6EF;
+      --vert-fonce: #263F37;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: var(--creme);
+      color: var(--vert-fonce);
+      line-height: 1.6;
+    }
+
+    header {
+      background: var(--vert-clair);
+      text-align: center;
+      padding: 55px 20px;
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+      margin-bottom: 10px;
+    }
+
+    nav {
+      background: var(--vert-fonce);
+      padding: 15px;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    main {
+      max-width: 1000px;
+      margin: auto;
+      padding: 30px 20px;
+    }
+
+    section {
+      background: white;
+      padding: 25px;
+      margin-bottom: 25px;
+      border-radius: 14px;
+      border-left: 6px solid var(--vert-sauge);
+    }
+
+    h2 {
+      color: var(--vert-sauge);
+    }
+
+    .bouton {
+      display: inline-block;
+      background: var(--vert-sauge);
+      color: white;
+      padding: 12px 20px;
+      border-radius: 8px;
+      text-decoration: none;
+      margin-top: 10px;
+    }
+
+    .bouton:hover {
+      background: var(--vert-fonce);
+    }
+
+    .assistant {
+      background: var(--vert-clair);
+    }
+
+    footer {
+      text-align: center;
+      background: var(--vert-fonce);
+      color: white;
+      padding: 20px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header id="accueil">
+    <h1>Bienvenue sur mon site pédagogique</h1>
+    <p>Un espace pour apprendre, découvrir et progresser
+       à son rythme.</p>
+  </header>
+
+  <nav>
+    <a href="#accueil">Accueil</a>
+    <a href="#rubrique1">Cours</a>
+    <a href="#rubrique2">Exercices</a>
+    <a href="#rubrique3">Vocabulaire</a>
+    <a href="#rubrique4">Ressources</a>
+    <a href="#assistant">Assistant IA</a>
+  </nav>
+
+  <main>
+
+    <section>
+      <h2>Bienvenue !</h2>
+      <p>
+        Ce site a été créé pour accompagner les apprenants
+        dans leurs apprentissages.
+      </p>
+      <p>
+        Vous pourrez consulter des cours, réaliser des
+        exercices et découvrir des ressources pédagogiques.
+      </p>
+    </section>
+
+    <section id="rubrique1">
+      <h2>Rubrique 1 — Cours</h2>
+      <p>Retrouvez ici les leçons et les explications.</p>
+    </section>
+
+    <section id="rubrique2">
+      <h2>Rubrique 2 — Exercices</h2>
+      <p>Entraînez-vous avec des activités adaptées
+         à votre niveau.</p>
+    </section>
+
+    <section id="rubrique3">
+      <h2>Rubrique 3 — Vocabulaire</h2>
+      <p>Découvrez et révisez les mots importants.</p>
+    </section>
+
+    <section id="rubrique4">
+      <h2>Rubrique 4 — Ressources</h2>
+      <p>Retrouvez ici des textes, des vidéos
+         et des documents utiles.</p>
+    </section>
+
+    <section id="assistant" class="assistant">
+      <h2>Mon assistant IA pédagogique</h2>
+
+      <p>
+        Un espace pour poser des questions,
+        comprendre les notions difficiles et
+        progresser en autonomie.
+      </p>
+
+      <p>
+        Prochainement, vous pourrez accéder
+        à votre assistant pédagogique ici.
+      </p>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>Mon site pédagogique — Apprendre à son rythme</p>
+  </footer>
+
+</body>
+</html>
+
